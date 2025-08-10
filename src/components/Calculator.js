@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Wrapper, Button } from './CalculatorStyles';
+
 
 export default function Calculator() {
   const [quantity, setQuantity] = useState(100);
@@ -32,6 +34,7 @@ export default function Calculator() {
     prices.delivery[delivery];
 
   return (
+    <Wrapper>
     <div style={{ padding: "20px" }}>
       <h2>Order calculator</h2>
 
@@ -93,5 +96,9 @@ export default function Calculator() {
 
       <h3>Total: {price} C.U.</h3>
     </div>
+    <Button onClick={() => window.location.href = '#'}>
+        Order now!
+      </Button>
+    </Wrapper>
   );
 }

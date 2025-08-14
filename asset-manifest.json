@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/print-shop/static/css/main.f855e6bc.css",
+    "main.js": "/print-shop/static/js/main.4ead42f3.js",
+    "index.html": "/print-shop/index.html",
+    "main.f855e6bc.css.map": "/print-shop/static/css/main.f855e6bc.css.map",
+    "main.4ead42f3.js.map": "/print-shop/static/js/main.4ead42f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.4ead42f3.js"
+  ]
+}
